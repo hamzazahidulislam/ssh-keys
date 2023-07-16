@@ -44,3 +44,17 @@ Application     ssh.exe                                            8.6.0.1    C:
 - ## [2](https://youtu.be/Wx7WPDnwcDg)
 
 - ## [3](https://youtu.be/8X4u9sca3Io)
+
+## Identity Add
+  `ssh-add C:\Users\Hp\.ssh\id_ed25519`
+
+## To ensure the correct SSH key is used when connecting to Bitbucket, update or create your SSH configuration file (~/.ssh/config) with the following settings:
+
+  `Host bitbucket.org
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/{ssh-key-name}`
+## example 
+`Host bitbucket.org
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519`
+
