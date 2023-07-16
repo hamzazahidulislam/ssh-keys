@@ -58,3 +58,18 @@ Application     ssh.exe                                            8.6.0.1    C:
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519`
 
+## If removing identity 
+  `ssh-add -D`
+
+## Get public value
+
+  `cat C:\Users\Hp\.ssh\id_ed25519.pub`
+## Add the public key to your required website or your server
+
+## Lastly verify your connection
+
+  `ssh -T git@bitbucket.org`
+  `ssh -T git@gitlab.com`
+  `ssh -T git@github.com`
+
+  
