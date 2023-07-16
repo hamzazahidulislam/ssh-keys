@@ -36,8 +36,6 @@ Application     ssh.exe                                            8.6.0.1    C:
 
 ## From a git bash terminal, check if the SSH agent is running using the `ps` command. If the `ssh-agent` is already running, it should appear in the output, such as:
 
-
-
-
+[source ](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/#Add-your-key-to-the-SSH-agent)
 
 
